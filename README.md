@@ -1,22 +1,20 @@
-# npm-package-template
+# react-components-template
 
-[![NPM Version](https://img.shields.io/npm/v/npm-package-template?logo=npm)](https://www.npmjs.com/package/npm-package-template)
-![build](https://github.com/ryohidaka/npm-package-template/workflows/Build/badge.svg)
-[![codecov](https://codecov.io/gh/ryohidaka/npm-package-template/graph/badge.svg?token=RHP9TB2F51)](https://codecov.io/gh/ryohidaka/npm-package-template)
+[![NPM Version](https://img.shields.io/npm/v/react-components-template?logo=npm)](https://www.npmjs.com/package/react-components-template)
+![build](https://github.com/ryohidaka/react-components-template/workflows/Build/badge.svg)
+[![codecov](https://codecov.io/gh/ryohidaka/react-components-template/graph/badge.svg?token=RHP9TB2F51)](https://codecov.io/gh/ryohidaka/react-components-template)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B6TVH92)
 
 ## Overview
 
-Minimum configuration template for publishing packages to npm.
+Minimum configuration react components template for publishing packages to npm.
 
 ## Installation
 
 You can install this library using npm:
 
 ```shell
-npm install npm-package-template
+npm install react-components-template
 ```
 
 ## Functions
@@ -34,7 +32,7 @@ npm install npm-package-template
 ## Usage Example
 
 ```ts
-import {} from "npm-package-template";
+import {} from "react-components-template";
 ```
 
 ## Link

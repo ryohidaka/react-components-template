@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-template",
-  "version": "0.2.0",
-  "description": "Minimum configuration template for publishing packages to npm.",
+  "name": "react-components-template",
+  "version": "0.0.0",
+  "description": "Minimum configuration react components template for publishing packages to npm.",
   "keywords": [],
   "type": "module",
   "main": "./dist/index.umd.cjs",
@@ -27,14 +27,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryohidaka/npm-package-template.git"
+    "url": "git+https://github.com/ryohidaka/react-components-template.git"
   },
   "author": "ryohidaka",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryohidaka/npm-package-template/issues"
+    "url": "https://github.com/ryohidaka/react-components-template/issues"
   },
-  "homepage": "https://github.com/ryohidaka/npm-package-template#readme",
+  "homepage": "https://github.com/ryohidaka/react-components-template#readme",
   "devDependencies": {
     "@types/node": "^22.7.7",
     "@vitest/coverage-v8": "^2.1.3",

@@ -1,6 +1,5 @@
 {
   "$schema": "https://typedoc.org/schema.json",
-  "disableSources": true,
   "entryPoints": ["./src"],
   "exclude": ["./src/example/*", "./src/vite-env.d.ts"],
   "hideGenerator": true,

@@ -5,7 +5,6 @@ tsconfig.json
 ## Tests
 setup.ts
 /tests
-/coverage
 
 ## Prettier
 .prettierignore
@@ -23,4 +22,7 @@ setup.ts
 ## Vite
 vite.config.ts
 public
-index.html
+
+## Typedoc
+typedoc.json
+docs

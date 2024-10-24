@@ -25,7 +25,9 @@
     "test": "VITEST_MIN_THREADS=6 VITEST_MAX_THREADS=6 vitest run --passWithNoTests",
     "coverage": "vitest run --coverage",
     "format": "npx prettier . --write",
-    "docs": "npx typedoc"
+    "docs": "npx typedoc",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "repository": {
     "type": "git",
@@ -38,7 +40,16 @@
   },
   "homepage": "https://github.com/ryohidaka/react-components-template#readme",
   "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
     "@eslint/js": "^9.13.0",
+    "@storybook/addon-essentials": "^8.3.6",
+    "@storybook/addon-interactions": "^8.3.6",
+    "@storybook/addon-links": "^8.3.6",
+    "@storybook/addon-onboarding": "^8.3.6",
+    "@storybook/blocks": "^8.3.6",
+    "@storybook/react": "^8.3.6",
+    "@storybook/react-vite": "^8.3.6",
+    "@storybook/test": "^8.3.6",
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
@@ -53,6 +64,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.12",
+    "eslint-plugin-storybook": "^0.10.1",
     "globals": "^15.11.0",
     "happy-dom": "^15.7.4",
     "postcss": "^8.4.47",
@@ -67,6 +79,12 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "storybook": "^8.3.6",
     "tailwindcss": "^3.4.14"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
   }
 }

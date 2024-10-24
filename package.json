@@ -25,7 +25,6 @@
     "test": "VITEST_MIN_THREADS=6 VITEST_MAX_THREADS=6 vitest run --passWithNoTests",
     "coverage": "vitest run --coverage",
     "format": "npx prettier . --write",
-    "docs": "npx typedoc",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },

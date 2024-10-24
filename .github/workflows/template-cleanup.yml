@@ -41,4 +41,3 @@ jobs:
           pre-commit-script: |
             npm run format
             npm run build
-            npm run docs

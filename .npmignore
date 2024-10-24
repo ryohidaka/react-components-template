@@ -23,6 +23,3 @@ setup.ts
 vite.config.ts
 public
 
-## Typedoc
-typedoc.json
-docs

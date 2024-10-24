@@ -1,0 +1,39 @@
+import { MyInputComponent } from "./MyInputComponent";
+
+# MyInputComponent
+
+`MyInputComponent` is a basic form component that captures user input and maintains its value using React's state management.
+
+## Usage
+
+```tsx
+import React from "react";
+import { MyInputComponent } from "your-ui-library";
+
+const App = () => {
+  return (
+    <div>
+      <h1>Input Component Example</h1>
+      <MyInputComponent />
+    </div>
+  );
+};
+
+export default App;
+```
+
+## Props
+
+MyInputComponent does not accept any props currently. It manages the state internally.
+
+## Features
+
+- State Management: The component uses useState to store and update the input value.
+- Event Handling: The input field listens for onChange events and updates its value accordingly.
+- Styling: The input field comes with basic styles like shadow, border, and focus state using Tailwind CSS classes.
+
+## Example
+
+Below is an interactive example of the MyInputComponent:
+
+<MyInputComponent />

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/ryohidaka/react-components-template/compare/v0.1.0...v0.2.0) (2024-10-25)
+
+
+### Features
+
+* Inject Tailwind style into style.css ([aaf90fc](https://github.com/ryohidaka/react-components-template/commit/aaf90fc4cb13e71d02c26d04d82c9f8cf67c3dc3))
+
 ## 0.1.0 (2024-10-24)
 
 
